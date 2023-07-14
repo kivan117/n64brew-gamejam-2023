@@ -34,5 +34,8 @@
 # Build artifacts
 build/
 
+# The compiled rom. This will be released separately in github releases. No need to track the binary here.
+*.z64
+
 # library folder (should be tracked by submodule)
 libdragon/
